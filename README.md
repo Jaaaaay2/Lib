@@ -4,6 +4,9 @@
 local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
 ```
 ```lua
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaaaaay2/Lib/main/Mercury%20Lib/source.lua"))()
+```
+```lua
 local GUI = Mercury:Create{
     Name = "Mercury",
     Size = UDim2.fromOffset(600, 400),
