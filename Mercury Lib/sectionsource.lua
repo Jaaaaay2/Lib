@@ -3086,8 +3086,10 @@ function Library:keybind(options)
 					listening = false
 				end
 			else
-				if key.KeyCode == options.Keybind then
-					options.Callback()
+				if not UserInputService:GetFocusedTextBox() then
+					if key.KeyCode == options.Keybind then
+						options.Callback()
+					end
 				end
 			end
 		end)
